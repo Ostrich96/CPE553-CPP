@@ -1,6 +1,7 @@
 
 int sumSquaresUpTo(int n) {
   // write your loop in terms of n
+for(int i = 1, i <= n, i++)
 
 
   return ___;
