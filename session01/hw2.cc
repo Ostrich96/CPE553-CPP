@@ -1,10 +1,12 @@
 
-int sumSquaresUpTo(int n) {
+int sumSquaresUpTo(int n) 
+{
   // write your loop in terms of n
-for(int i = 1, i <= n, i++)
+  int sum = 0;
+  for (int i = 0, i <= n, i++) 
+  sum += i * i;
 
-
-  return ___;
+  return sum;
 }
 
 int main() {
@@ -12,8 +14,6 @@ int main() {
 
   // write a for loop that counts 10 9 8 7 6 5 4 3 2 1 0
 
-  cout << sumSquaresUpTo(5) << '\n'; // 1*1 + 2*2 + 3*3 + 4*4 + 5*5 = ???
+  cout << sumSquaresUpTo(5) << '\n';  // 1*1 + 2*2 + 3*3 + 4*4 + 5*5 = ???
   cout << sumSquaresUpTo(7) << '\n';
-
-
 }
